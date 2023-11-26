@@ -32,6 +32,7 @@ const getCarts = (req, res, next) => {
     .then((result) => {
       res.status(200).json(result.rows);
     })
+
     .catch((error) => {
       const errorMessage = error.message || 'Внутренняя ошибка сервера';
       return res.status(500).json(`Ошибка при получении списка: ${errorMessage}`);

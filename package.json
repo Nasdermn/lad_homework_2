@@ -1,13 +1,13 @@
 {
   "name": "lad_homework_2",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "База данных интернет-магазина и API для нее (СУБД: PostgreSQL)",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
-  "author": "",
+  "author": "Dan Causelove",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"
